@@ -64,9 +64,7 @@ public class MainActivity extends AppCompatActivity {
                                 Log.e("country_population: ",object.getString("country_population"));
                                 Log.e("asn: ",object.getString("asn"));
                                 Log.e("org: ",object.getString("org"));
-//                                Log.e("11",object.getString("country"));
 
-//                                cotuntry.setText(object.getString("country"));
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
